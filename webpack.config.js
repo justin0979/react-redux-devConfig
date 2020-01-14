@@ -36,6 +36,18 @@ module.exports = {
       {
         test: /\.html$/,
         use: 'html-loader'
+      },
+      {
+        test: /\.(jpe?g|png|gif|svg|ttf|woff(2)?|eot)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[path][name].[ext]'
+            }
+          },
+          'image-webpack-loader'
+        ]
       }
     ]
   },
