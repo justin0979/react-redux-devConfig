@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux';
+import fetchPostsReducer from './fetchPostsReducer';
 
 export default combineReducers({
-  erase: () => 'this with your reducers'
+  posts: fetchPostsReducer
 });
