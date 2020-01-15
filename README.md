@@ -15,6 +15,17 @@ run `npm i`
 then `npm start`
 then go to `localhost:3000` in browser.
 
+### Packages
+
+This is only some of the packages contained here.
+`axios` is used for fetches.
+`redux-thunk` is middleware for async code.
+
+### Personalize This
+
+Just delete `src` content and use unique material. `html` file is in
+`public` directory.
+
 ### Issues
 
 No testing libraries installed at this time.

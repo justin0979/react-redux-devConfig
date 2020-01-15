@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
 
 export default combineReducers({
-  erase: () => 'this'
+  erase: () => 'this with your reducers'
 });
